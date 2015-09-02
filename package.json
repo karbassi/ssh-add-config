@@ -1,0 +1,42 @@
+{
+  "name": "ssh-add-config",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Ali Karbassi",
+    "email": "ali@karbassi.com",
+    "url": "karbassi.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/karbassi/ssh-add-config.git"
+  },
+  "bin": "cli.js",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "ssh",
+    "config",
+    "ssh-config"
+  ],
+  "dependencies": {
+    "async": "^1.4.2",
+    "meow": "^3.3.0",
+    "path-exists": "^1.0.0",
+    "ssh-config": "^0.2.0",
+    "sshconf-upsert": "0.0.1",
+    "update-notifier": "^0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  }
+}
