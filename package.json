@@ -1,7 +1,7 @@
 {
   "name": "ssh-add-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add SSH to config file.",
   "author": {
     "name": "Ali Karbassi",
     "email": "ali@karbassi.com",
@@ -17,9 +17,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "files": [
     "cli.js"
   ],
@@ -29,14 +26,11 @@
     "ssh-config"
   ],
   "dependencies": {
-    "async": "^1.4.2",
-    "meow": "^3.3.0",
-    "path-exists": "^1.0.0",
-    "ssh-config": "^0.2.0",
+    "async": "^2.0.0-rc.4",
+    "meow": "^3.7.0",
+    "path-exists": "^3.0.0",
+    "ssh-config": "^1.0.0",
     "sshconf-upsert": "0.0.1",
-    "update-notifier": "^0.5.0"
-  },
-  "devDependencies": {
-    "mocha": "^2.3.0"
+    "update-notifier": "^0.7.0"
   }
 }
