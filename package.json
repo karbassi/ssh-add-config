@@ -1,16 +1,20 @@
 {
   "name": "ssh-add-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add SSH to config file.",
   "author": {
     "name": "Ali Karbassi",
     "email": "ali@karbassi.com",
-    "url": "karbassi.com"
+    "url": "http://karbassi.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/karbassi/ssh-add-config.git"
+    "url": "https://github.com/karbassi/ssh-add-config"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/karbassi/ssh-add-config/issues"
   },
   "bin": "cli.js",
   "preferGlobal": true,
