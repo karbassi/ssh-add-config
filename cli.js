@@ -112,4 +112,6 @@ async.parallel({
 
   fs.appendFileSync(FILE, data);
 
+  console.log("Host \"" + results.host + "\" created.");
+
 });
